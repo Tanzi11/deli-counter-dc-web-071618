@@ -1,8 +1,7 @@
-def line (katz_deli)
-  if katz_deli.count > 1
-    print "The line is currently:"
-    katz_deli.each_with_index {|name, index|  print " #{index +1}. #{name}" }
-  else
-    puts "The line is currently empty."
-  end
+
+def take_a_number(katz_deli, name)
+puts "The line is currently empty." 
+if  katz_deli.count == 0
+  katz_deli << name
+  puts "Welcome,#{name}. You are number #{katz_deli.count} in line."
 end
