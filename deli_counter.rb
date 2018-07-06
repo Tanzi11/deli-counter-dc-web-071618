@@ -1,4 +1,5 @@
 katz_deli = []
 
-def katz_deli(line)
+def take_a_number(katz_deli,name)
+  puts 
 end
